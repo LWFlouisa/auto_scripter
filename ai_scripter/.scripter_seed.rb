@@ -78,6 +78,48 @@ open("script.rb", "w") { |f|
 
 # Archive the old module caller.
 open("data/script_archive/old_module_call.txt", "w") { |f|
+  f.puts "#{module_call_archive}"
+  f.puts "#{current_module}::#{current_class}.#{current_method}"
+}
+
+# Marks off previous module, class, method, and script type and progresses.
+open("data/ai_input/method_input.txt", "w") { |f|
+  f.puts method_number = method_number + 1
+}
+module_list = "module #{current_module}"
+
+class_list  = "  class #{current_class}"
+
+total_methods = "    #{method_archive}
+
+    def self.#{current_method}
+      #{current_script}
+    end
+"
+
+end_script = "
+  end
+end
+
+#{module_call_archive}
+#{current_module}::#{current_class}.#{current_method}
+"
+
+# Writes current method list to old methods to referring back to.
+open("data/script_archive/old_methods.txt", "w") { |f|
+  f.puts total_methods
+}
+
+# Write a generated script in Ruby.
+open("script.rb", "w") { |f|
+  f.puts module_list
+  f.puts class_list
+  f.puts total_methods
+  f.puts end_script
+}
+
+# Archive the old module caller.
+open("data/script_archive/old_module_call.txt", "w") { |f|
   f.puts "#{current_module}::#{current_class}.#{current_method}"
 }
 
