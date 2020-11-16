@@ -1,0 +1,6 @@
+o:NaiveBayes	:@features_count{	:good_morning}I"binijieru:ETf1I"greeting;Tf2I"giodimieru;T@	f0:good_afternoon}I"bini apierumi;T@	@
+@	@:good_evening}I"bini eruvini;T@	@
+@	@:good_night}I"bini niti;T@	@
+@	@:@klass_count{	;@;	@	;
+@	;@	:@klasses[	;;	;
+;:@db_filepathI"data/baysian/greetings.nb;T

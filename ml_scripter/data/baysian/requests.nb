@@ -1,0 +1,2 @@
+o:NaiveBayes	:@features_count{:request}I"givimio:ETf1I"request;T@	f0:norequest}I"nio givimio;T@	@
+@	@:@klass_count{;@	;	@	:@klasses[;;	:@db_filepathI"data/baysian/requests.nb;T

@@ -1,0 +1,6 @@
+o:NaiveBayes	:@features_count{:normal}I"
+eneru:ETf1I"normal;Tf6I"
+siuha;T@	I"	wesi;T@	I"	easi;T@	I"	feru;T@	I"
+biosi;T@	f0:fourth_dimensional}I"
+utiwa;T@	I"fourth dimensional;Tf2I"
+iniwa;T@	@:@klass_count{;@;	@:@klasses[;;	:@db_filepathI"data/baysian/directions.nb;T

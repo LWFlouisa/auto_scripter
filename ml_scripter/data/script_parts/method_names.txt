@@ -1,0 +1,7 @@
+greeting
+agent
+request
+gender
+object
+for_from
+direction

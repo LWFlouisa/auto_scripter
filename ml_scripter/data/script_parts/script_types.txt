@@ -1,0 +1,7 @@
+require "MLForms"; MLForms::Multifactor.greeting
+require "MLForms"; MLForms::Multifactor.agent
+require "MLForms"; MLForms::Multifactor.request
+require "MLForms"; MLForms::Multifactor.gender
+require "MLForms"; MLForms::Multifactor.object
+require "MLForms"; MLForms::Multifactor.for_from
+require "MLForms"; MLForms::Multifactor.direction

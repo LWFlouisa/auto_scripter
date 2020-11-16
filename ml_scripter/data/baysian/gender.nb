@@ -1,0 +1,4 @@
+o:NaiveBayes	:@features_count{:gender}	I"ruh:ETf1I"gender;Tf3I"rah;T@	I"ros;T@	f0:indefinite}	I"	yona;T@	@
+@I"
+yonei;T@	I"
+yonas;T@	@:@klass_count{;@;	@:@klasses[;;	:@db_filepathI"data/baysian/gender.nb;T
