@@ -1,7 +1,5 @@
 module AI
   class Rule_Set
-    # placeholder
-
     def self.hours_passed
       require "rules_ai"; RulesAi::Rules_Set.hours_passed
     end
@@ -35,8 +33,6 @@ end
 
 module DynamicBaysian
   class MachineLearning
-    # placeholder
-
     def self.greeting
       require "MLForms"; MLForms::Multifactor.greeting
     end
