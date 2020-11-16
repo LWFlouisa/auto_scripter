@@ -1,3 +1,5 @@
+## MLForms has not been released yet.
+
 module AI
   class Rule_Set
     def self.hours_passed
